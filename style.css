@@ -29,6 +29,15 @@ li{
 .text--purple{
 color: #6030b1
 }
+section:nth-child(even){
+  background-color: #f8f8f8;
+}
+.container{
+  padding: 50px 0;
+}
+.section__title{
+  margin-bottom: 20px;
+}
 /* NAVIGATION BAR */
 nav {
   height: 100px;
@@ -121,4 +130,26 @@ margin-bottom: 16px;
   flex: 1;
   display: flex;
   align-items: center;
+}
+.about-me__img{
+  width: 100%;
+}
+
+/* TECH STACK */
+.language__img{
+  width: 100%;
+  max-width: 100px;
+}
+.language{
+  width: 25%;
+}
+.language__img--wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 16px;}
+.language__list{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
