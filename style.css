@@ -30,7 +30,7 @@ a {
   text-decoration: none;
   position: relative;
 }
-i:hover {
+.about-me__link:hover, .project__description--link:hover svg{
   opacity: 0.7;
 }
 .link__hover-effect:after {
