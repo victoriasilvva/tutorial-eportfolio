@@ -61,8 +61,8 @@ li {
 .flex-1 {
   flex: 1;
 }
-.text--purple {
-  color: #6030b1;
+.text--pink {
+  color: #FF2E77;
 }
 section:nth-child(even) {
   background-color: #f8f8f8;
@@ -94,18 +94,18 @@ nav {
 }
 
 .nav__link--anchor-primary {
-  background-color: #6030b1;
+  background-color: #FF2E77;
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
 }
 .nav__link--anchor-primary:hover {
-  background-color: #5d3eff;
+  background-color: #FF5C95;
 }
 .personal__logo {
   font-size: 24px;
   font-weight: bold;
-  color: #6030b1;
+  color: #FF2E77;
   margin: 0 12px;
 }
 /* ABOUT ME */
@@ -188,6 +188,7 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
+  padding: 20px 0;
 }
 .about-me__img {
   width: 100%;
